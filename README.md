@@ -24,7 +24,6 @@ git submodule init && git submodule update --remote --merge
 #### Libraries
 
 * [Bullet Physics](Bullet)
-* [Crazy Eddies' GUI (CEGUI)](CEGUI)
 
 You can append more than one of these options to get any combination of additional libraries.
 
@@ -200,19 +199,4 @@ cmake -G "Eclipse CDT4 - Unix Makefiles" -D CMAKE_BUILD_TYPE=Debug .. -DINCLUDE_
 
 # Visual Studio 2015
 cmake -G "Visual Studio 14 2015" -T v110 .. -DINCLUDE_BULLET=ON
-```
-
-### CEGUI
-
-Append the `-DINCLUDE_CEGUI=ON` when you generate your project file with cmake:
-
-```bash
-# Make
-cmake .. -DINCLUDE_CEGUI=ON
-
-# Eclipse
-cmake -G "Eclipse CDT4 - Unix Makefiles" -D CMAKE_BUILD_TYPE=Debug .. -DINCLUDE_CEGUI=ON
-
-# Visual Studio 2015
-cmake -G "Visual Studio 14 2015" -T v110 .. -DINCLUDE_CEGUI=ON
 ```
