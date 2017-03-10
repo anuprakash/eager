@@ -23,7 +23,7 @@ git submodule init && git submodule update --remote --merge
 
 #### Libraries
 
-* [Bullet Physics](Bullet)
+* [Bullet Physics](bullet)
 
 You can append more than one of these options to get any combination of additional libraries.
 
